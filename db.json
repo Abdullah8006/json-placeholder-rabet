@@ -1,7 +1,19 @@
 {
   "services": [
-    { "name": "Echo API", "system_name": "opic_echo", "description":"etst desc" },
-    { "name": "Echo API 2", "system_name_2": "opic_echo_2", "description":"etst desc 2" },
-    { "name": "Echo API 3", "system_name_3": "opic_echo_3", "description":"etst desc 3" },
+    {
+      "name": "Echo API",
+      "system_name": "opic_echo",
+      "description": "etst desc"
+    },
+    {
+      "name": "Echo API 2",
+      "system_name_2": "opic_echo_2",
+      "description": "etst desc 2"
+    },
+    {
+      "name": "Echo API 3",
+      "system_name_3": "opic_echo_3",
+      "description": "etst desc 3"
+    }
   ]
 }
