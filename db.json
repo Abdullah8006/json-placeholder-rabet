@@ -15,5 +15,25 @@
       "system_name_3": "opic_echo_3",
       "description": "etst desc 3"
     }
+  ],
+  "features": [
+    {
+      "system_name": "opic_echo_f",
+      "name": "opic_echo name",
+      "description": "opic_echo desc",
+      "serviceId": "opic_echo"
+    },
+    {
+      "system_name": "opic_echo_3_f",
+      "name": "opic_echo_3 name",
+      "description": "opic_echo_3 desc",
+      "serviceId": "opic_echo_3"
+    },
+    {
+      "system_name": "opic_echo_4",
+      "name": "opic_echo_4 name",
+      "description": "opic_echo_4 desc",
+      "serviceId": "opic_echo_4"
+    }
   ]
 }
