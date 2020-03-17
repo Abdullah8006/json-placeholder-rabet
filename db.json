@@ -9,13 +9,13 @@
     {
       "id": 2,
       "name": "Echo API 2",
-      "system_name_2": "opic_echo_2",
+      "system_name": "opic_echo_2",
       "description": "etst desc 2"
     },
     {
       "id": 3,
       "name": "Echo API 3",
-      "system_name_3": "opic_echo_3",
+      "system_name": "opic_echo_3",
       "description": "etst desc 3"
     }
   ],
@@ -23,23 +23,23 @@
     {
       "id": 101,
       "serviceId": 1,
-      "system_name": "opic_echo_f",
-      "name": "opic_echo name",
-      "description": "opic_echo desc"
+      "system_name": "opic_echo_f_1",
+      "name": "Echo API 1 f 1",
+      "description": "Echo API 1 D 1"
     },
     {
       "id": 102,
       "serviceId": 2,
-      "system_name": "opic_echo_3_f",
-      "name": "opic_echo_3 name",
-      "description": "opic_echo_3 desc"
+      "system_name": "opic_echo_f_2",
+      "name": "Echo API 2 f 1",
+      "description": "Echo API 2 D 1"
     },
     {
       "id": 103,
       "serviceId": 3,
-      "system_name": "opic_echo_4",
-      "name": "opic_echo_4 name",
-      "description": "opic_echo_4 desc"
+      "system_name": "opic_echo_f_3",
+      "name": "Echo API 3 f 1",
+      "description": "Echo API 3 D 1"
     }
   ],
   "applicationPlans": [
