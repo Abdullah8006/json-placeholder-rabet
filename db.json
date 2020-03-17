@@ -1,16 +1,19 @@
 {
   "services": [
     {
+      "id": 1,
       "name": "Echo API",
       "system_name": "opic_echo",
       "description": "etst desc"
     },
     {
+      "id": 2,
       "name": "Echo API 2",
       "system_name_2": "opic_echo_2",
       "description": "etst desc 2"
     },
     {
+      "id": 3,
       "name": "Echo API 3",
       "system_name_3": "opic_echo_3",
       "description": "etst desc 3"
@@ -18,22 +21,74 @@
   ],
   "features": [
     {
+      "id": 101,
+      "serviceId": 1,
+      "system_name": "opic_echo_f",
+      "name": "opic_echo name",
+      "description": "opic_echo desc"
+    },
+    {
+      "id": 102,
+      "serviceId": 2,
+      "system_name": "opic_echo_3_f",
+      "name": "opic_echo_3 name",
+      "description": "opic_echo_3 desc"
+    },
+    {
+      "id": 103,
+      "serviceId": 3,
+      "system_name": "opic_echo_4",
+      "name": "opic_echo_4 name",
+      "description": "opic_echo_4 desc"
+    }
+  ],
+  "applicationPlans": [
+    {
+      "id": 201,
+      "serviceId": 1,
+      "system_name": "opic_echo_f",
+      "name": "opic_echo name",
+      "description": "opic_echo desc"
+    },
+    {
+      "id": 202,
+      "serviceId": 2,
+      "system_name": "opic_echo_3_f",
+      "name": "opic_echo_3 name",
+      "description": "opic_echo_3 desc"
+    },
+    {
+      "id": 203,
+      "serviceId": 3,
+      "system_name": "opic_echo_4",
+      "name": "opic_echo_4 name",
+      "description": "opic_echo_4 desc"
+    }
+  ],
+  "plansFeatures": [
+    {
+      "id": 301,
+      "planId": 201,
       "system_name": "opic_echo_f",
       "name": "opic_echo name",
       "description": "opic_echo desc",
       "serviceId": "opic_echo"
     },
     {
+      "id": 302,
+      "planId": 202,
+      "serviceId": "opic_echo_3",
       "system_name": "opic_echo_3_f",
       "name": "opic_echo_3 name",
-      "description": "opic_echo_3 desc",
-      "serviceId": "opic_echo_3"
+      "description": "opic_echo_3 desc"
     },
     {
+      "id": 303,
+      "planId": 203,
+      "serviceId": "opic_echo_4",
       "system_name": "opic_echo_4",
       "name": "opic_echo_4 name",
-      "description": "opic_echo_4 desc",
-      "serviceId": "opic_echo_4"
+      "description": "opic_echo_4 desc"
     }
   ]
 }
